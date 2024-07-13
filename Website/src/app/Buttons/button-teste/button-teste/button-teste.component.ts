@@ -18,6 +18,8 @@ export class ButtonTesteComponent {
         label: 'Objeto'
       }
 
+      placePass:string = "Escrita interativa"
+
       getAlert(){
         alert("ola mundo")
       }

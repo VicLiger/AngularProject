@@ -4,3 +4,10 @@
 <button>{{ ButtonObjetc.label }}</button>
 <button>{{label}}</button>
 <button (click)="getAlert()">{{ButtonAlert}}</button>
+
+<input type="text" 
+    [value]="placePass"
+    (input)="placePass = $any($event.target).value"
+>
+
+<p>{{placePass}}</p>
