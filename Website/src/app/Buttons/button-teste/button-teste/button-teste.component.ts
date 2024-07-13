@@ -12,8 +12,13 @@ export class ButtonTesteComponent {
       ButtonName: string = "Aprendendo a passar conteudo"
       ButtonNameVetor: string[] = ['Vender', 'Comprar']
       ButtonNumber: number = 8
+      ButtonAlert: string = "Alerta"
 
       ButtonObjetc = {
         label: 'Objeto'
+      }
+
+      getAlert(){
+        alert("ola mundo")
       }
 }
